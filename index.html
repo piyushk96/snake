@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <style>
+        *{
+            font-size: 50px;
+        }
+        body{
+            padding: 0;
+            margin: 10px 80px;
+        }
+        canvas{
+            border: 10px solid black;
+        }
+        #start{
+            position: absolute;
+            top: 40vh;
+            left: 40vw;
+        }
+    </style>
+</head>
+<body>
+<canvas id="gameCanvas"></canvas>
+<button id="start" onclick="init()">Start Game</button>
+<div id="score">Score : 0</div>
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
